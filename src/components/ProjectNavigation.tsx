@@ -5,18 +5,18 @@ import { NavigationLink } from "./NavigationLink";
 
 const variants = {
   close: {
-    x: -300,
+    x      : -300,
     opacity: 0,
   },
   open: {
-    x: 0,
+    x      : 0,
     opacity: 100,
   },
 };
 
 interface Props {
-  selectedProject: string;
-  isOpen: boolean;
+  selectedProject   : string;
+  isOpen            : boolean;
   setSelectedProject: (project: string | null) => void;
 }
 

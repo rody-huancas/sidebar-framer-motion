@@ -1,8 +1,8 @@
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
 
 interface Props {
-  children: React.ReactNode;
-  name: string;
+  children          : React.ReactNode;
+  name              : string;
   setSelectedProject: (val: string | null) => void;
 }
 
